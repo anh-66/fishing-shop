@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="style.css" />
     <title>Cửa hàng đồ câu</title>
   </head>
+  <script src="script.js"></script>
   <body>
     <header>
       <h1>Cửa hàng câu cá 🎣</h1>
@@ -15,7 +16,13 @@
       <section class="product">
         <h2>Cần câu Carbon</h2>
         <p>Giá: 1.200.000 VNĐ</p>
-        <button>Mua ngay</button>
+        <button onclick="addToCart(1)">Mua ngay</button>
+      </section>
+
+      <section class="product">
+        <h2>Máy câu Shimano</h2>
+        <p>Giá: 2.500.000 VNĐ</p>
+        <button onclick="addToCart(2)">Mua ngay</button>
       </section>
     </main>
 
